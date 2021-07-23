@@ -19,8 +19,6 @@ protected:
     char name[100];
     int age;
     char adhaar[12];
-    char address[100];
-    char mobile_number[20];
     static int k;
 
 public:
