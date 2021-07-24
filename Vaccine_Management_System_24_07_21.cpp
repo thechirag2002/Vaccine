@@ -997,8 +997,8 @@ int password()
     hide_name[i] = '\0';
     srand(time(0));
     capt = rand();
-    cout << "\n\t\tCAPTA :-> " << capt;
-    cout << "\n\tPlease Enter the valid Capta :-> ";
+    cout << "\n\t\tCAPTCHA :-> " << capt;
+    cout << "\n\tPlease Enter the valid Captcha :-> ";
     cin >> capta;
     if ((strcmp(u_name, "vaccine") == 0) && (strcmp(hide_name, "aca") == 0) && (capt == capta))
         return 1;
